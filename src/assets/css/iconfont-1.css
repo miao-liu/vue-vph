@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "iconfont"; /* Project id  */
+    src: url('iconfont.ttf?t=1639022016017') format('truetype');
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-cart:before {
+    content: "\e60a";
+  }
+  
+  .icon-search:before {
+    content: "\e648";
+  }
+  
+  .icon-cc-arrow-up:before {
+    content: "\e60f";
+  }
+  
+  .icon-xiebaopeishizhuanhuan:before {
+    content: "\e668";
+  }
+  
+  .icon-classify:before {
+    content: "\e7e8";
+  }
+  
+  .icon-Discount-Coupon:before {
+    content: "\e65c";
+  }
+  
+  .icon-Coat:before {
+    content: "\e7a3";
+  }
+  
+  .icon-clothes:before {
+    content: "\e614";
+  }
+  
+  .icon-arrow-left:before {
+    content: "\e743";
+  }
+  

@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
     "vue": "^2.6.11",
+    "vue-router": "^3.5.3",
     "vuex": "^3.4.0"
   },
   "devDependencies": {
@@ -29,6 +32,10 @@
   },
   "eslintConfig": {
     "root": true,
+    "globals": {
+      "window": true,
+      "ActiveXObject": true
+    },
     "env": {
       "node": true
     },
