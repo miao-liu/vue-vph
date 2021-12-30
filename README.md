@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-# vue-project
-=======
-# vue-shop
+# 唯品会移动端赝品
 
 ## Project setup
 ```
@@ -17,12 +14,3 @@ yarn serve
 ```
 yarn build
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> a3ed81396c403a8907578825d7db57b1ce613abd

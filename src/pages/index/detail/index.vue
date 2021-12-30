@@ -77,6 +77,9 @@ export default {
   },
   async mounted () {
     this.init()
+  },
+  beforeDestory () {
+    this.parabola.destroy()
   }
 }
 </script>
