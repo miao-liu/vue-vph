@@ -39,7 +39,7 @@ module.exports = {
             template: 'public/index.html',
             filename: 'index.html',
             title: '唯品会',
-            chunks: ['chunk-vendors', 'chunk-common', 'index']
+            chunks: ["chunk-vendors", "chunk-common", "index"]
         },
         manage: {
             entry: 'src/views/manage/main.js',
