@@ -12,7 +12,6 @@ const mutations = {
 
 const actions = {
   async setCartProducts ({ commit }, items) {
-    console.log('product--', items)
     commit('setCartProducts', await ajax('post', CART, { items: items }).then(res => res.data))
   }
 }

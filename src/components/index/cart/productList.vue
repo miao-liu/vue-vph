@@ -48,6 +48,8 @@ export default {
   async mounted () {
     await this.$store.dispatch('cart/setItemsId')
     await this.$store.dispatch('products/setCartProducts', this.$store.state.cart.itemsId)
+    this.list = this.$store.state.cart.cartProducts
+    this.total = this.$store.getters['cart/cartTotalPrice']
   },
   watch: {
     products: function (val) {

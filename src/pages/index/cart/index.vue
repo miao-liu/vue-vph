@@ -14,12 +14,7 @@ export default {
       navs: [{ name: '个人中心', to: '/center' }, { name: '购物车', to: '/cart' }]
     }
   },
-  components: { breadMenu, productList },
-  methods: {
-    getData () {
-      console.log(123)
-    }
-  }
+  components: { breadMenu, productList }
 }
 </script>
 <style scoped>

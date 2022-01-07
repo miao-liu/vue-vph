@@ -19,10 +19,10 @@ const getters = {
       })
       state.cartProducts.push(...arr)
       state.partItems = []
-      return state.cartProducts
     } else {
       console.log('waiting...')
     }
+    return state.cartProducts
   },
   cartTotalPrice: (state, getters) => {
     if (!state.cartProducts) {
