@@ -52,4 +52,3 @@ yarn build
 <img width="335" alt="Screen Shot 2022-01-08 at 7 35 52 AM" src="https://user-images.githubusercontent.com/36464497/148620429-72772400-cfa3-4998-b123-fae05b2830dd.png">
 
 # 知多则尽优，知少则尽查 - 籍籍无名的前端
->>>>>>> 4b29533f6a1614f6560178ee005ba917cd4a0eb8
